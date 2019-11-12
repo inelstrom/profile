@@ -1,0 +1,89 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+body {
+  background-color: #FFF5F2;
+  font-family: 'Open Sans', sans-serif;
+  color: #807A6F;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+h1{
+  font-family: 'Poppins';
+  color: #635D53;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+h2 {
+  font-family: 'Poppins';
+  color: #767065;
+  font-size: 21px;
+  line-height: 20px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #807A6F;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+.profile-img {
+  width: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #8F7D61;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #A5978A;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 40px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
